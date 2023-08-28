@@ -12,7 +12,7 @@ module.exports = {
 				brand: {
 					light: "#FBF8F3",
 					lightText: "#1F1F1F",
-					dark: "#1F1F1F",
+					dark: "#1a1a1a",
 					darkText: "#e3e3e3",
 					purple: "#7928CA",
 					pink: "#FF0080"

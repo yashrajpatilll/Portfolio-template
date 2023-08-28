@@ -7,7 +7,7 @@ export function AppHeader() {
 	const isMobile = useMediaQuery();
 
 	return (
-		<header className="pt-5 pb-5 sticky top-0 z-10 bg-inherit shadow-md">
+		<header className="pt-5 pb-5 sticky top-0 z-10 bg-inherit shadow-md dark:shadow-lg">
 			<div className="container-md">
 				<div className="flex justify-between items-center gap-3">
 					<div className="hidden sm:block">

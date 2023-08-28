@@ -59,7 +59,7 @@ export function WelcomeSection() {
 							</p>
 						</h1>
 
-						<div className="mt-3 relative flex flex-col overflow-hidden">
+						<div className="mt-4 relative flex flex-col overflow-hidden">
 							<p
 								ref={ref}
 								className="text-[17px] md:text-2xl transform-none opacity-100"
@@ -93,7 +93,7 @@ export function WelcomeSection() {
 							</p>
 						</div>
 						<div
-							className="mt-6"
+							className="mt-8"
 							ref={ref}
 							style={{
 							transform: isInView ? "none" : "translateX(-100px)",

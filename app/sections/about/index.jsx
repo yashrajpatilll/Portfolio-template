@@ -10,17 +10,22 @@ export function AboutSection() {
     return (
         <LazyMotion features={domAnimation}>
             <section id="about" className="section">
-                <HeadingDivider title="About me" />
-                <div className="pt-4 sm:pt-8 pb-12 max-w-5xl">
+                <div className="pt-4 pb-24 max-w-5xl"
+                 style={{
+                    transform: isInView ? "none" : "translateY(50px)",
+                            opacity: isInView ? 1 : 0,
+                            transition: "transform 0.9s ease-in-out, opacity 0.9s ease-in-out"
+                 }}
+                 >
+                
+                <h3 className="text-2xl md:text-4xl font-extrabold">
+				ABOUT ME
+			    </h3>
+             
                     <div
                         tabIndex="0"
                         ref={ref}
-                        className="text-lg md:text-xl font-light leading-relaxed"
-                        style={{
-                            transform: isInView ? "none" : "translateY(50px)",
-                            opacity: isInView ? 1 : 0,
-                            transition: "transform 0.9s ease-in-out, opacity 0.9s ease-in-out"
-                        }}
+                        className="text-lg md:text-xl font-light leading-relaxed pt-8"
                     >
                         <p>
                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores officia numquam, reprehenderit ullam laborum doloremque officiis repellat laboriosam minus. Quis sapiente dolores enim numquam nesciunt voluptatum! Alias veniam recusandae doloremque.

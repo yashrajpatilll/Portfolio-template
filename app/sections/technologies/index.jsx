@@ -13,18 +13,17 @@ export function TechnologiesSection() {
 	return (	
 		<LazyMotion features={domAnimation}>
 
-		<section id="tech" className="section"
+		<section id="tech" className="section mt-10"
 		style={{
 			transform: isInView ? "none" : "translateY(50px)",
                             opacity: isInView ? 1 : 0,
                             transition: "transform 0.9s ease-in-out, opacity 0.9s ease-in-out"
 		}}
 		>
-			<HeadingDivider title="Technologies" />
-			<p ref={textRef} tabIndex="0" className="my-5 text-lg md:text-2xl">
-				I work with the following technologies and tools:
-			</p>
-
+			<h3 ref={textRef} className="text-2xl md:text-4xl font-extrabold">
+				TECHNOLOGIES
+			</h3>
+			
 			{!!TECHNOLOGIES.length && (
 				<div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
 					{TECHNOLOGIES.map((tech, index) => {
