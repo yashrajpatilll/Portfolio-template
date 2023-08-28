@@ -21,9 +21,13 @@ export function AppFooter() {
 				}}
 			>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-5">
-					<p className="font-light">Copyright &copy; {year} Nranjan Patil</p>
+					<p className="font-light">Copyright &copy; {year} yashraj.site</p>
+					<div className="hidden sm:block ">
 					<ScrollTop />
+					</div>
+					<div className="hidden sm:block ">
 					<ConnectMedia />
+					</div>
 				</div>
 			</footer>
 		</LazyMotion>

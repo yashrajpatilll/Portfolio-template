@@ -16,10 +16,6 @@ import StyledIcon from "public/assets/svg/styledcomponents.svg";
 
 export const TECHNOLOGIES = [
 	{
-		category: "Mobile",
-		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
-	},
-	{
 		category: "Web",
 		items: [
 			{ name: "HTML", icon: <AiFillHtml5 size={32} /> },
@@ -28,8 +24,6 @@ export const TECHNOLOGIES = [
 			{ name: "React", icon: <FaReact size={32} /> },
 			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
 			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
-			{ name: "Bootstrap", icon: <BsBootstrap size={32} /> },
-			{ name: "Chakra", icon: <ChakraIcon width={32} /> },
 		]
 	},
 	{
@@ -40,10 +34,13 @@ export const TECHNOLOGIES = [
 		]
 	},
 	{
+		category: "Mobile",
+		items: [{ name: "Flutter", icon: <RiFlutterFill size={32} /> }]
+	},
+	{
 		category: "Other tools",
 		items: [
 			{ name: "WordPress CMS", icon: <FaWordpressSimple size={32} /> },
-			{ name: "Jira", icon: <JiraIcon width={32} /> },
 			{ name: "Github", icon: <AiFillGithub size={32} /> },
 			{ name: "Gitlab", icon: <AiFillGitlab size={32} /> },
 			{ name: "VsCode", icon: <DiVisualstudio size={32} /> },

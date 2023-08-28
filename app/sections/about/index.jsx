@@ -13,11 +13,11 @@ export function AboutSection() {
         <LazyMotion features={domAnimation}>
             <section id="about" className="section">
                 <HeadingDivider title="About me" />
-                <div className="pt-10 pb-16 max-w-5xl flex flex-col gap-3">
+                <div className="pt-4 sm:pt-8 pb-12 max-w-5xl flex flex-col gap-3">
                     <div
                         tabIndex="0"
                         ref={ref}
-                        className="text-xl font-light leading-relaxed"
+                        className="text-lg md:text-xl font-light leading-relaxed"
                         style={{
                             transform: isInView ? "none" : "translateX(-200px)",
                             opacity: isInView ? 1 : 0,
