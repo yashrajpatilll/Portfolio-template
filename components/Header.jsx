@@ -10,8 +10,13 @@ export function AppHeader() {
 		<header className="pt-5 pb-5 sticky top-0 z-10 bg-inherit shadow-md">
 			<div className="container-md">
 				<div className="flex justify-between items-center gap-3">
+					<div className="hidden sm:block">
 					<Logo />
-					{isMobile ? <MobileMenu /> : <Menu />}
+					</div>
+
+					{/* For mobile view */}
+					{isMobile ? <MobileMenu />: <Menu />}
+					{isMobile ? <Logo />: null}
 					<div className="flex items-center gap-5">
 						{/* {!isMobile && <ConnectMedia />} */}
 						<ThemeSwitcher />

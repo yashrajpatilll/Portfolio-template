@@ -2,7 +2,7 @@ import { BsFillEnvelopeFill, BsGithub, BsTwitter } from "react-icons/bs";
 
 export const SOCIAL_MEDIA = [
 	{
-		id: "linkedin",
+		id: "twitter",
 		icon: <BsTwitter />,
 		title: "Visit Twitter profile",
 		url: "https://x.com/yashrej"
@@ -11,12 +11,12 @@ export const SOCIAL_MEDIA = [
 		id: "github",
 		icon: <BsGithub />,
 		title: "Visit Github profile",
-		url: "https://github.com/NiranjanxPatil"
+		url: "https://github.com/yashrajpatilll"
 	},
 	{
 		id: "mail",
 		icon: <BsFillEnvelopeFill />,
 		title: "Send me an email",
-		url: "mailto://niranjan41210@gmail.com"
+		url: "mailto://yashraj.work@outlook.com"
 	}
 ];

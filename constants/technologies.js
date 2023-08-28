@@ -1,18 +1,11 @@
 import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub, AiFillGitlab } from "react-icons/ai";
 import { DiCss3, DiVisualstudio } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
-import { FaReact, FaWordpressSimple, FaFigma, FaTrello } from "react-icons/fa";
-import { BsBootstrap } from "react-icons/bs";
+import { FaReact, FaWordpressSimple, FaFigma } from "react-icons/fa";
 import { TbBrandNextjs, TbBrandTailwind } from "react-icons/tb";
 import { RiFlutterFill } from "react-icons/ri";
 import AdobeXDIcon from "public/assets/svg/adobexd.svg";
-import ZeplinIcon from "public/assets/svg/zeplin.svg";
-import WebstormIcon from "public/assets/svg/webstorm.svg";
-import JiraIcon from "public/assets/svg/jira.svg";
-import HeadlessUiIcon from "public/assets/svg/headlessui.svg";
-import MuiIcon from "public/assets/svg/mui.svg";
-import ChakraIcon from "public/assets/svg/chakraui.svg";
-import StyledIcon from "public/assets/svg/styledcomponents.svg";
+import {SiTypescript} from "react-icons/si";
 
 export const TECHNOLOGIES = [
 	{
@@ -23,6 +16,7 @@ export const TECHNOLOGIES = [
 			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
 			{ name: "React", icon: <FaReact size={32} /> },
 			{ name: "Next", icon: <TbBrandNextjs size={32} /> },
+			{ name: "Typescript", icon: <SiTypescript size={32} /> },
 			{ name: "Tailwind CSS", icon: <TbBrandTailwind size={32} /> },
 		]
 	},
