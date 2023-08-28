@@ -14,7 +14,7 @@ export function AppFooter() {
 		<LazyMotion features={domAnimation}>
 			<footer
 				ref={footerRef}
-				className="container-md py-10 mt-5 relative before:absolute before:top-0 before:left-4 before:w-[calc(100%-16px)] before:h-[1px] before:bg-gray-100"
+				className="container-md py-10 mt-5 relative before:absolute before:top-0 before:left-4 before:w-[calc(100%-16px)] before:h-[1px] before:bg-gray-500/20"
 				style={{
 					transform: isInView ? "none" : "translateY(40px)",
                             opacity: isInView ? 1 : 0,

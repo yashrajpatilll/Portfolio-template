@@ -16,10 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"enjoy building Flutter apps for Android/iOS",
-		"love reading Books",
-		"also love developing Web apps",
-		"love to learn new things"
+		"enjoy building software",
+		"design and develop web apps",
+		"like to Read",
+		"love to explore new things"
 	]);
 
 	const onClick = (e) => scrollToEl(e);

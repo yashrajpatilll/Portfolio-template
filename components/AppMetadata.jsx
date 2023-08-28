@@ -1,8 +1,8 @@
-const author = "Niranjan Patil";
-const description = " Software developer form Mumbai, Republic of, who loves to develop beautiful websites, single page application, customer relationship management or code from scratch using React and Next.js";
-const url = "https://github.com/NiranjanxPatil";
+const author = "Yashraj Patil";
+const description = "I'm a passionate software developer. I love to build things that make a difference.";
+const url = "https://about.yashraj.site";
 export const AppMetadata = {
-    metadataBase: new URL("https://github.com/NiranjanxPatil"),
+    metadataBase: new URL("https://about.yashraj.site"),
     title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`
@@ -12,34 +12,35 @@ export const AppMetadata = {
 		icon: "/favicon.png"
     },
     keywords: [
-        "Niranjan Patil",
-        "Niranjan Patil - software & devops Engineer",
+        "Yashraj Patil",
+        "Yashraj Patil - software developer",
         "Frontend dveloper",
-        "Devops Engineer",
+        "Web Engineer",
         "Portfolio website",
         "Frontend Developer Portfolio",
-        "Flutter developer",
+        "yasrajpatilll",
+		"yashraj.site"
     ],
     creator: author,
     authors: [{name: author}],
     colorScheme: "dark",
 	openGraph: {
-        title: `${author} | Portfolio`,
+        title: `${author}`,
 		description: description,
 		url: url,
-		siteName: `${author} | Portfolio`, 
+		siteName: `${author}`, 
         images: [
 			{
 				url: "",
 				width: 800,
 				height: 600,
-				alt: "My personal portfolio website"
+				alt: "My personal website"
 			},
 			{
 				url: "",
 				width: 1800,
 				height: 1600,
-				alt: "My personal portfolio website"
+				alt: "My personal website"
 			}
 		],
 		locale: "en-US",
