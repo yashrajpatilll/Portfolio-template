@@ -46,9 +46,9 @@ export function WelcomeSection() {
 							ref={ref}
 							className="text-3xl md:text-5xl xl:text-6xl font-extrabold"
 							style={{
-								transform: isInView ? "none" : "translateX(-200px)",
-								opacity: isInView ? 1 : 0,
-								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+								transform: isInView ? "none" : "translateX(-100px)",
+                            	opacity: isInView ? 1 : 0,
+                           		transition: "transform 1s ease-in-out, opacity 1s ease-in-out"
 							}}
 						>
 							<p>
@@ -64,14 +64,14 @@ export function WelcomeSection() {
 								ref={ref}
 								className="text-[17px] md:text-2xl transform-none opacity-100"
 								style={{
-									transform: isInView ? "none" : "translateX(-200px)",
-									opacity: isInView ? 1 : 0,
-									transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+									transform: isInView ? "none" : "translateX(-100px)",
+                            		opacity: isInView ? 1 : 0,
+                            		transition: "transform 1s ease-in-out, opacity 1s ease-in-out"
 								}}
 							>
 								I
 								<span
-									className="absolute flex flex-col transition-all duration-500 ease-in-expo"
+									className="absolute flex flex-col transition-all duration-700 ease-in-expo"
 									style={{
 										top:
 											count === 0
@@ -93,12 +93,12 @@ export function WelcomeSection() {
 							</p>
 						</div>
 						<div
-							className="mt-5"
+							className="mt-6"
 							ref={ref}
 							style={{
-								transform: isInView ? "none" : "translateY(50px)",
-								opacity: isInView ? 1 : 0,
-								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+							transform: isInView ? "none" : "translateX(-100px)",
+                            opacity: isInView ? 1 : 0,
+                            transition: "transform 1s ease-in-out, opacity 1s ease-in-out"
 							}}
 						>
 							<Link

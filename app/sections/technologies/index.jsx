@@ -1,13 +1,25 @@
 import { useRef } from "react";
 import { HeadingDivider } from "components";
 import { TECHNOLOGIES } from "../../../constants";
+import { LazyMotion, domAnimation, useInView } from "framer-motion";
+
 
 export function TechnologiesSection() {
 	const textRef = useRef(null);
 	const stackRef = useRef(null);
+	const isInView = useInView(textRef, { once: true });
 
-	return (
-		<section id="tech" className="section">
+
+	return (	
+		<LazyMotion features={domAnimation}>
+
+		<section id="tech" className="section"
+		style={{
+			transform: isInView ? "none" : "translateY(50px)",
+                            opacity: isInView ? 1 : 0,
+                            transition: "transform 0.9s ease-in-out, opacity 0.9s ease-in-out"
+		}}
+		>
 			<HeadingDivider title="Technologies" />
 			<p ref={textRef} tabIndex="0" className="my-5 text-lg md:text-2xl">
 				I work with the following technologies and tools:
@@ -44,5 +56,6 @@ export function TechnologiesSection() {
 				</div>
 			)}
 		</section>
+		</LazyMotion>
 	);
 }

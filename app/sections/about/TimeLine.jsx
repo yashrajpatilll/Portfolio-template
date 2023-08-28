@@ -76,9 +76,9 @@ export function TimeLine() {
 								style={{
 									transform: isInView
 										? "none"
-										: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
+										: `${index === 0 ? "translateY(250px)" : `translateY(${300 / index}px)`}`,
 									opacity: isInView ? 1 : 0,
-									transition: 'all 0.5s ease-in-out'
+									transition: 'all 1.2s ease-in-out'
 						
 								}}
 							>
