@@ -3,6 +3,7 @@
 import { useRef } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 import { ConnectMedia, ScrollTop } from "components";
+import Link from "next/link";
 
 export function AppFooter() {
 	const footerRef = useRef(null);
@@ -21,7 +22,18 @@ export function AppFooter() {
 				}}
 			>
 				<div className="flex flex-col md:flex-row justify-between items-center gap-10 md:gap-5">
-					<p className="font-light">Copyright &copy; {year} yashraj.site</p>
+				
+				<div>
+				Copyright &copy; {year} {" "}	
+				<Link
+            		target='_blank'
+            		href='https://yashraj.site'
+            		className='hover:text-blue-500'
+				 >
+            		Yashraj Patil
+          		</Link>{" "} 
+
+				  </div>
 					<div className="hidden sm:block ">
 					<ScrollTop />
 					</div>
