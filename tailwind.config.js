@@ -11,13 +11,15 @@ module.exports = {
 			colors: {
 				brand: {
 					light: "#FBF8F3",
-					dark: "#232332",
+					lightText: "#1F1F1F",
+					dark: "#1F1F1F",
+					darkText: "#e3e3e3",
 					purple: "#7928CA",
 					pink: "#FF0080"
 				},
 				blue: {
-					lighter: "#71c5ee",
-					light: "#3182ce",
+					lighter: "#037ee2",
+					light: "#0370c9",
 					normal: "#025091"
 				},
 				card: {
