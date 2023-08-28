@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2023, text: "Start my journey as a Flutter developer" },
-	{ year: 2022, text: "Shifted to AiMl Engineering" },
-	{ year: 2021, text: "Dive completely into React.js" },
-	{ year: 2020, text: "Work on java developing" },
-	{ year: 2019, text: "Stated my journy as Student" }
+	{ year: 2019, text: "Started my programming journey" },
+	{ year: 2020, text: "Started Web Development & Cloud" },
+	{ year: 2021, text: "Internship at Company" },
+	{ year: 2022, text: "Pursuing my Bachloers in Artificial Intelligence" },
+	{ year: 2023, text: "Working on several Next.js Projects" }
 ];
 
 export function TimeLine() {
@@ -78,9 +78,8 @@ export function TimeLine() {
 										? "none"
 										: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
 									opacity: isInView ? 1 : 0,
-									transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${
-										index === 0 ? 0.5 : 1.05 * index
-									}s`
+									transition: 'all 0.5s ease-in-out'
+						
 								}}
 							>
 								<h3

@@ -12,7 +12,7 @@ export function Logo() {
 	return (
 		<LazyMotion features={domAnimation}>
 			<m.h3
-				className="text-xl md:text-2xl font-bold"
+				className="text-xl md:text-4xl font-black"
 				initial={initial}
 				animate={animate}
 				exit={exit}

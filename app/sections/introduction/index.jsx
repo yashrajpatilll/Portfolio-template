@@ -16,10 +16,10 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"build Flutter apps for Android/iOS",
-		"exploring in AIML",
-		"developing in Devops",
-		"Develop websites using Next.js"
+		"enjoy building Flutter apps for Android/iOS",
+		"love reading Books",
+		"also love developing Web apps",
+		"love to learn new things"
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -44,7 +44,7 @@ export function WelcomeSection() {
 						<h1
 							tabIndex="0"
 							ref={ref}
-							className="text-3xl md:text-5xl xl:text-6xl font-bold"
+							className="text-3xl md:text-5xl xl:text-6xl font-extrabold"
 							style={{
 								transform: isInView ? "none" : "translateX(-200px)",
 								opacity: isInView ? 1 : 0,
@@ -52,7 +52,10 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Niranjan</mark> a <mark>passionate</mark> software developer.
+								Hi, I&apos;m <mark>Yashraj</mark>
+							</p>
+							<p>
+								A <mark>passionate</mark> software developer.
 							</p>
 						</h1>
 
@@ -89,20 +92,8 @@ export function WelcomeSection() {
 								</span>
 							</p>
 						</div>
-
-						<p
-							tabIndex="0"
-							ref={ref}
-							className="mt-3 mb-10 text-gray-500 text-xl"
-							style={{
-								transform: isInView ? "none" : "translateX(-200px)",
-								opacity: isInView ? 1 : 0,
-								transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-							}}
-						>
-							Stick around to see some of my work.
-						</p>
 						<div
+							className="mt-5"
 							ref={ref}
 							style={{
 								transform: isInView ? "none" : "translateY(50px)",
