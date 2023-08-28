@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { BsMoon, BsSun } from "react-icons/bs";
+import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { domAnimation, LazyMotion, m } from "framer-motion";
 import { animate, exit, initial, transition } from "utils";
@@ -27,7 +27,7 @@ export const ThemeSwitcher = () => {
 				exit={exit}
 				transition={transition}
 			>
-				{currentTheme === "dark" ? <BsSun /> : <BsMoon />}
+				{currentTheme === "dark" ? <BsFillSunFill /> : <BsFillMoonFill />}
 			</m.button>
 		</LazyMotion>
 	);
