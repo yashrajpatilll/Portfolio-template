@@ -27,10 +27,10 @@ export function AboutSection() {
                         className="text-lg md:text-xl font-light leading-relaxed pt-8"
                     >
                         <p>
-                        I&apos;m excited to share that this website is an open-source project crafted with Next.js and Tailwind CSS. The best part? It&apos;s available for anyone to use, completely free of charge. Feel free to explore, learn from, and even adapt the code for your own purposes. 
+                        I&apos;m excited to share that this website is an <a href="https://github.com/yashrajpatilll/Portfolio-template" target="_blank" className="hover:underline"><mark><b>open-source</b></mark></a> project crafted with <b>Next.js</b> and <b>Tailwind CSS.</b> The best part? It&apos;s available for anyone to use, completely free of charge. Feel free to explore, learn from, and even adapt the code for your own purposes. 
                         And remember, giving credit to the creator is all I ask in return – let&apos;s keep the spirit of open collaboration alive!
                         </p>
-                        <p className="my-3">
+                        <p className="my-4">
                         While the code isn&apos;t perfectly optimized just yet, I&apos;m committed to continuous improvement. I warmly welcome feedback and contributions from the community.
                         </p>
                     </div>
