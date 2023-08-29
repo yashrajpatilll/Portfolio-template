@@ -102,13 +102,13 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="https://github.com/yashrajpatilll/Portfolio-template"
+								href="https://yashraj.site/writings"
 								target="_blank"
 								tabIndex="0"
 								className="px-3 py-2 md:px-4 md:py3 bg-blue-600/90 hover:bg-blue-700/90 text-white dark:text-zinc-100 dark:bg-blue-700/80 dark:hover:bg-blue-800/90 shadow-md rounded-lg"
 								aria-label="Latest projects"
 							>
-								Source code &#8594;
+								Read my blog &#8594;
 							</Link>
 						</div>
 					</div>
