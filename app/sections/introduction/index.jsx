@@ -44,7 +44,7 @@ export function WelcomeSection() {
 						<h1
 							tabIndex="0"
 							ref={ref}
-							className="text-3xl md:text-5xl xl:text-6xl font-extrabold"
+							className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold"
 							style={{
 								transform: isInView ? "none" : "translateX(-100px)",
                             	opacity: isInView ? 1 : 0,
@@ -59,7 +59,7 @@ export function WelcomeSection() {
 							</p>
 						</h1>
 
-						<div className="mt-4 relative flex flex-col overflow-hidden">
+						<div className="mt-4 sm:mt-7 relative flex flex-col overflow-hidden">
 							<p
 								ref={ref}
 								className="text-[17px] md:text-2xl transform-none opacity-100"
@@ -93,7 +93,7 @@ export function WelcomeSection() {
 							</p>
 						</div>
 						<div
-							className="mt-8"
+							className="mt-10"
 							ref={ref}
 							style={{
 							transform: isInView ? "none" : "translateX(-100px)",
@@ -102,13 +102,14 @@ export function WelcomeSection() {
 							}}
 						>
 							<Link
-								href="#projects"
-								onClick={onClick}
+								href="https://yashraj.site/writings"
+								target="_blank"
+								// onClick={onClick}
 								tabIndex="0"
-								className="btn"
+								className="px-3 py-2 md:px-4 md:py3 bg-blue-600/90 hover:bg-blue-700/90 text-white dark:text-zinc-100 dark:bg-blue-700/80 dark:hover:bg-blue-800/90 shadow-md rounded-lg"
 								aria-label="Latest projects"
 							>
-								See my latest projects
+								Read my blog &#8594;
 							</Link>
 						</div>
 					</div>
@@ -130,11 +131,11 @@ function TextElement({ element }) {
 		<span
 			tabIndex="0"
 			ref={ref}
-			className="text-[17px] md:text-2xl"
+			className="text-[16px] md:text-2xl"
 			style={{
-				transform: isInView ? "none" : "translateX(-200px)",
-				opacity: isInView ? 1 : 0,
-				transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
+				transform: isInView ? "none" : "translateX(-50px)",
+                opacity: isInView ? 1 : 0,
+                transition: "transform 1s ease-in-out, opacity 1s ease-in-out"
 			}}
 		>
 			{firstWord} {restWords}
