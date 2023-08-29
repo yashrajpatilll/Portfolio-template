@@ -10,7 +10,7 @@ export function AppHeader() {
 		<header className="pt-5 pb-5 sticky top-0 z-10 bg-inherit shadow-md dark:shadow-lg">
 			<div className="container-md">
 				<div className="flex justify-between items-center gap-3">
-					<div className="hidden sm:block">
+					<div className="hidden md:block">
 					<Logo />
 					</div>
 
