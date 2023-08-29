@@ -15,7 +15,7 @@ export const AppMetadata = {
         "Yashraj Patil",
         "Yashraj Patil - software developer",
         "Frontend dveloper",
-        "Web Engineer",
+        "template",
         "Portfolio website",
         "Frontend Developer Portfolio",
         "yasrajpatilll",
@@ -31,10 +31,10 @@ export const AppMetadata = {
 		siteName: `${author}`, 
         images: [
 			{
-				url: "",
-				width: 800,
-				height: 600,
-				alt: "My personal website"
+				url: "/template-og.png",
+				width: 1600,
+				height: 856,
+				alt: "Portfolio Template"
 			},
 			{
 				url: "",
