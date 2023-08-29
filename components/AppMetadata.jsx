@@ -1,8 +1,8 @@
 const author = "Yashraj Patil";
 const description = "I'm a passionate software developer. I love to build things that make a difference.";
-const url = "https://about.yashraj.site";
+const url = "https://template.yashraj.site";
 export const AppMetadata = {
-    metadataBase: new URL("https://about.yashraj.site"),
+    metadataBase: new URL("https://template.yashraj.site"),
     title: {
 		default: `Portfolio | ${author}`,
 		template: `%s | ${author}`

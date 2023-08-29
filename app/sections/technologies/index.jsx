@@ -1,5 +1,4 @@
 import { useRef } from "react";
-import { HeadingDivider } from "components";
 import { TECHNOLOGIES } from "../../../constants";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 

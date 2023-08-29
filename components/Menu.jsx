@@ -35,6 +35,16 @@ export function Menu({ onClick = () => {} }) {
 						</a>
 					</li>
 				))}
+				<li>
+					<a
+						href="https://yashraj.site/writings"
+						target="_blank"
+						title="Blog"
+						className="relative text-xl hover:no-underline after:absolute after:left-0 after:-bottom-[3px] after:h-[2px] after:w-0 after:bg-current after:transition-width after:duration-300 after:ease-in-out hover:after:w-full"
+					>
+						Blog		
+					</a>
+				</li>
 			</ul>
 		</m.nav>
 	);
