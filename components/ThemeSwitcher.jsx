@@ -26,7 +26,7 @@ export const ThemeSwitcher = () => {
 				animate={animate}
 				exit={exit}
 				transition={transition}
-				className=" shadow-md rounded-lg p-2 bg-inherit hover:bg-gray-200/20 dark:bg-[#1f1f1f] dark:hover:bg-[#1b1b1b] "
+				className=" shadow-md rounded-full p-2 bg-inherit hover:bg-gray-200/20 dark:bg-[#1f1f1f] dark:hover:bg-[#1b1b1b] "
 			>
 				{currentTheme === "dark" ? <BsFillSunFill /> : <BsFillMoonFill />}
 			</m.button>

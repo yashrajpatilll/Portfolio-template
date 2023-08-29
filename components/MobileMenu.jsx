@@ -34,7 +34,7 @@ export function MobileMenu() {
 				animate={animate}
 				exit={exit}
 				transition={transition}
-				className=" shadow-md rounded-lg p-2 bg-inherit hover:bg-gray-200/30 dark:bg-[#262626] dark:hover:bg-gray-800/50 "
+				className=" shadow-md rounded-md p-2 bg-inherit hover:bg-gray-200/30 dark:bg-[#262626] dark:hover:bg-gray-800/50 "
 			>
 				<BsList />
 			</m.button>
