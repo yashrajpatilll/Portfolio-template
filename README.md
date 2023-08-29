@@ -38,7 +38,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-### Remove Personal content before Deploying
+## Remove Personal content before Deploying
 Before deploying your own version Please remove all my personal data and links.
 
 ##### You can leave Feedback or contribute to the Project.
