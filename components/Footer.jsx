@@ -28,7 +28,7 @@ export function AppFooter() {
 				<Link
             		target='_blank'
             		href='https://yashraj.site'
-            		className='hover:text-blue-500'
+            		className='text-blue-500 hover:text-blue-600'
 				 >
             		Yashraj Patil
           		</Link>{" "} 
