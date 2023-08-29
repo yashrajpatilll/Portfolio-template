@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { BsList } from "react-icons/bs";
+import { HiMenu } from "react-icons/hi";
 import { ConnectMedia, Menu } from "components";
 import {
 	animate,
@@ -34,9 +34,9 @@ export function MobileMenu() {
 				animate={animate}
 				exit={exit}
 				transition={transition}
-				className=" shadow-md rounded-md p-2 bg-inherit hover:bg-gray-200/30 dark:bg-[#262626] dark:hover:bg-gray-800/50 "
+				// className=" shadow-md rounded-md p-2 bg-inherit hover:bg-gray-200/30 dark:bg-[#1f1f1f] dark:hover:bg-[#1b1b1b] "
 			>
-				<BsList />
+				<HiMenu size={26} />
 			</m.button>
 
 			<AnimatePresence>
