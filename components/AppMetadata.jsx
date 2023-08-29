@@ -1,5 +1,5 @@
 const author = "Yashraj Patil";
-const description = "I'm a passionate software developer. I love to build things that make a difference.";
+const description = "Open source Portfolio template built using Next.js and TailwindCss";
 const url = "https://template.yashraj.site";
 export const AppMetadata = {
     metadataBase: new URL("https://template.yashraj.site"),
@@ -12,13 +12,13 @@ export const AppMetadata = {
 		icon: "/favicon.png"
     },
     keywords: [
-        "Yashraj Patil",
-        "Yashraj Patil - software developer",
+        "Nextjs tailwind",
+        "Next.js",
         "Frontend dveloper",
         "template",
         "Portfolio website",
         "Frontend Developer Portfolio",
-        "yasrajpatilll",
+        "open source",
 		"yashraj.site"
     ],
     creator: author,
