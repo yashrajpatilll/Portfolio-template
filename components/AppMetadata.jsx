@@ -1,4 +1,4 @@
-const author = "Yashraj Patil";
+const author = "Yashraj";
 const description = "Open source Portfolio template built using Next.js and TailwindCss";
 const url = "https://template.yashraj.site";
 export const AppMetadata = {
