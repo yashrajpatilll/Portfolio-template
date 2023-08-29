@@ -25,7 +25,7 @@ export function TechnologiesSection() {
 			</h3>
 			
 			{!!TECHNOLOGIES.length && (
-				<div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
+				<div className="mt-10 grid grid-cols-1 md:grid-cols-4 xl:grid-cols-5 gap-10">
 					{TECHNOLOGIES.map((tech, index) => {
 						return (
 							<div
