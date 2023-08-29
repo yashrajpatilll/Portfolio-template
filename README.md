@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project.
+#### This is a open source [Next.js](https://nextjs.org/) project.
 
 ## Getting Started
 
@@ -29,13 +29,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Remove Personal content before Deploying
 Before deploying your own version Please remove all my personal data and links.
 
-## Learn More
+ 
+#### Your feedback and contributions are welcome!
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-##### You can leave Feedback or contribute to the Project.
