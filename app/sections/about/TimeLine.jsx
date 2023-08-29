@@ -93,7 +93,7 @@ export function TimeLine() {
 										height="6"
 										viewBox="0 0 208 6"
 										xmlns="http://www.w3.org/2000/svg"
-										fill={colorMode === "light" ? "#000" : "#fff"}
+										fill={colorMode === "light" ? "#037ee2" : "#037ee2"}
 									>
 										<path
 											fillRule="evenodd"
