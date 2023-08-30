@@ -1,6 +1,6 @@
 const author = "Yashraj";
 const description = "Open source Portfolio template built using Next.js and TailwindCss";
-const url = "https://template.yashraj.site";
+const url = "https://yashraj.site";
 export const AppMetadata = {
     metadataBase: new URL("https://template.yashraj.site"),
     title: {
